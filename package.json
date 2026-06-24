@@ -1,0 +1,18 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "description": "A lightweight, zero-dependency Python tool to scan your Gmail inbox and extract emails indicating you've been selected for the **next round**, **interview**, or **shortlisted** for job or freelance opportunities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.9.11"
+  }
+}
